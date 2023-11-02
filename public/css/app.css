@@ -1,0 +1,15 @@
+@keyframes runningText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-runningText {
+    animation: runningText 15s linear infinite;
+    white-space: nowrap; /* Menjaga teks agar hanya satu baris */
+    overflow: hidden; /* Menghilangkan overflow horizontal */
+    width: 100%; /* Memberikan lebar maksimum untuk teks */
+  }
