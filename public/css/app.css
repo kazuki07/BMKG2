@@ -1,3 +1,4 @@
+
 @keyframes runningText {
     0% {
       transform: translateX(100%);
@@ -12,4 +13,57 @@
     white-space: nowrap; /* Menjaga teks agar hanya satu baris */
     overflow: hidden; /* Menghilangkan overflow horizontal */
     width: 100%; /* Memberikan lebar maksimum untuk teks */
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 1s;
+  }
+  .slide {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .slider {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  
+  
+  .slide {
+    width: 300px;
+  }
+  
+  .slider-2 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+  }
+  .slides-2 {
+    display: flex;
+    transition: transform 1s;
+  }
+  .slide-2 {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
